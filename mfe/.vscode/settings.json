@@ -14,7 +14,7 @@
     "**/node_modules": true
   },
   //
-  "editor.rulers": [80, 120],
+  // "editor.rulers": [80, 120],
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
@@ -84,5 +84,15 @@
     },
   },
   "emmet.triggerExpansionOnTab": true,
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // Customize each Micro
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#7678ed",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#6466ca",
+    "titleBar.inactiveForeground": "#ffffff"
+  },
+  "window.title": "✦ Mfe ✦  ${activeEditorMedium}"
+
 }

@@ -84,5 +84,14 @@
     },
   },
   "emmet.triggerExpansionOnTab": true,
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // Customize each Micro
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#2ea297",
+    "titleBar.activeForeground": "#fff",
+    "titleBar.inactiveBackground": "#25847b",
+    "titleBar.inactiveForeground": "#ffffff"
+  },
+  "window.title": "✦ SHELL ✦  ${activeEditorMedium}"
 }
