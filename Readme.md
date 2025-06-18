@@ -15,6 +15,8 @@ pnpm install
 
 Start the dev server:
 
+![alt text](assets/screen.png)
+
 ```bash
 pnpm dev
 ```
