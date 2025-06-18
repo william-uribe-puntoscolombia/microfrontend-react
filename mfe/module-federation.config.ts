@@ -1,13 +1,13 @@
 import { createModuleFederationConfig } from '@module-federation/modern-js';
 
 export default createModuleFederationConfig({
-  name: 'remote',
+  name: 'mfe',
   manifest: {
     filePath: 'static',
   },
   filename: 'static/remoteEntry.js',
   exposes: {
-    './Button': './src/components/Button.tsx',
+    './Users': './src/components/users/Users.tsx',
   },
   shared: {
     react: { singleton: true },

@@ -1,0 +1,124 @@
+.container-users {
+  background-color: #7678ed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.container {
+
+  max-width: 1000px;
+  margin: 1.5rem auto;
+  padding: 0 0.8rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.users-table {
+
+  border-radius: 1rem;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, .4);
+  /* overflow: hidden; */
+
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 2fr 1fr;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-weight: 500;
+  padding: 0.2rem 0;
+  border-radius: 1rem 1rem 0% 0%;
+}
+
+.header-cell {
+  padding: 0.6rem 0.8rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 2fr 1fr;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: var(--transition);
+}
+
+.table-row:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+.cell {
+  padding: 0.7rem 0.8rem;
+  font-size: 0.85rem;
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+}
+
+button {
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-right: 0.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  color: white;
+}
+
+button:hover {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .table-header,
+  .table-row {
+    grid-template-columns: 0.5fr 1fr 1.5fr 1fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .table-header,
+  .table-row {
+    grid-template-columns: 1fr;
+    padding: 0.4rem 0;
+  }
+
+  .header-cell {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.4rem 0.8rem;
+  }
+
+  .cell {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 0.4rem 0.8rem;
+  }
+
+  .table-row {
+    margin-bottom: 0.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+  }
+}

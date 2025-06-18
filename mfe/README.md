@@ -1,5 +1,9 @@
 # Modern.js App
 
+- Microfrontends en Modern.js, rspack
+- Contiene un shell que es el dashboard, y un remote(mfe) que es la seccion de usuarios.
+
+
 ## Setup
 
 Install the dependencies:
@@ -34,4 +38,9 @@ Preview the production build locally:
 pnpm serve
 ```
 
-For more information, see the [Modern.js documentation](https://modernjs.dev/en).
+# Configuraciones
+
+- microfrontends
+- tailwindcss
+- vitest
+- coverage

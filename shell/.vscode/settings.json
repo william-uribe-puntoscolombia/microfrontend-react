@@ -1,4 +1,14 @@
 {
+  // Customization of the editor
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#2ea297",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#2ea29798",
+    "titleBar.inactiveForeground": "#ffffff"
+  },
+  "window.title": "✦ SHELL ✦  ${activeEditorMedium}",
+
+  // Frameworks recommended
   "files.associations": {
     ".code-workspace": "jsonc",
     ".stylelintrc": "jsonc",
@@ -85,13 +95,4 @@
   },
   "emmet.triggerExpansionOnTab": true,
   "typescript.tsdk": "node_modules/typescript/lib",
-
-  // Customize each Micro
-  "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#2ea297",
-    "titleBar.activeForeground": "#fff",
-    "titleBar.inactiveBackground": "#25847b",
-    "titleBar.inactiveForeground": "#ffffff"
-  },
-  "window.title": "✦ SHELL ✦  ${activeEditorMedium}"
 }

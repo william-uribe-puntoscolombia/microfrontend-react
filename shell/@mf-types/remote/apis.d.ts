@@ -1,3 +1,4 @@
-
-    export type RemoteKeys = 'remote/Button';
-    type PackageType<T> = T extends 'remote/Button' ? typeof import('remote/Button') :any;
+export type RemoteKeys = 'remote/Users';
+type PackageType<T> = T extends 'remote/Users'
+  ? typeof import('remote/Users')
+  : any;
